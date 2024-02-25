@@ -40,6 +40,9 @@ ingress:
   tlsSecret: null
   ingressClassName: null
 
+tls:
+  secretName:
+
 affinity: {}
 
 tolerations: []
